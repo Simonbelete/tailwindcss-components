@@ -3,26 +3,35 @@ module.exports = {
   purge: ["./**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      material_ui: {
-        default: "#e0e0e0",
-        primary: "#1976d2",
-        secondary: "#dc004e",
-        disabled: "#e0e0e0",
-        disabled_1: "#aaaaaa",
-        link: "#1976d2",
-        black: "#323232",
-        white: "#fffefe",
+    extend: {
+      colors: {
+        material_ui: {
+          default: "#e0e0e0",
+          defautl_hover: "#d5d5d5",
+          primary: "#1976d2",
+          primary_hover: "#115293",
+          secondary: "#dc004e",
+          secondary_hover: "#9a0036",
+          disabled: "#e0e0e0",
+          disabled_1: "#aaaaaa",
+          link: "#1976d2",
+          link_hover: "#115293",
+          black: "#323232",
+          white: "#fffefe",
+        },
+      },
+      fontFamily: {
+        roboto: ["Roboto"],
+      },
+      boxShadow: {
+        material_ui:
+          "0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%)",
+        material_ui_hover:
+          "0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%)",
+        material_ui_active:
+          "0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%)",
       },
     },
-    fontFamily: {
-      roboto: ["Roboto"],
-    },
-    boxShadow: {
-      material_ui:
-        "0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%)",
-    },
-    extend: {},
   },
   variants: {
     extend: {},
