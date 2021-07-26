@@ -1,8 +1,9 @@
 import { ReactElement } from 'react';
-export default interface Banner {
+
+export default interface IButton {
   children?: ReactElement | string;
 }
 
 export const defaultProps = {
-  children: 'Lorem Ipsum is simply dummy text of the printing and',
+  children: 'Button',
 };
