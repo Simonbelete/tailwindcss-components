@@ -1,0 +1,36 @@
+.dropdown
+  @apply relative
+  @apply inline-block
+  &_controller
+    @apply flex
+    @apply flex-row
+    @apply items-center
+    @apply justify-center
+    @apply text-black
+    @apply gap-3
+    @apply bg-black
+    @apply text-white
+    @apply rounded
+    @apply px-7
+    @apply py-3
+    @apply font-roboto
+    @apply uppercase
+    @apply text-sm
+    @apply font-bold
+    @apply tracking-widest
+    &_icon
+      @apply h-5
+      @appy w-5
+  &_menus
+    @apply absolute
+    @apply right-0
+    @apply w-full
+    @apply origin-top-right
+    @apply shadow-xl
+    @apply rounded
+    @apply border
+    &>div
+      @apply p-3
+      @apply flex
+      @apply flex-col
+      @apply gap-2
