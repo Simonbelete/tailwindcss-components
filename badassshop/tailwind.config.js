@@ -9,6 +9,10 @@ module.exports = {
         geyser: '#CED6DC',
         mystic: '#E6EBEF',
       },
+      fontFamily: {
+        oswald: ['Oswald'],
+        roboto: ['Roboto'],
+      },
     },
   },
   variants: {
