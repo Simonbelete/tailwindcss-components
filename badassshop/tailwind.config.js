@@ -2,10 +2,17 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        yellow: '#EEFF00',
+        black: '#292F33',
+        geyser: '#CED6DC',
+        mystic: '#E6EBEF',
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
